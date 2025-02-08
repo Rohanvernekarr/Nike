@@ -11,10 +11,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 mac-container"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       {/* Left Section */}
-      <div className="relative w-1/2 flex flex-col justify-center items-start max-xl:w-full  pt-28">
+      <div className="relative w-1/2 flex flex-col pl-5 justify-center items-start max-xl:w-full  pt-28">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
@@ -48,11 +48,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* Right Section */}
-      <div className="relative w-1/2 flex justify-center items-center xl:min-h-screen max-xl:py-40">
-        {/* Background */}
-        <div className="absolute inset-0 w-full h-full  bg-primary bg-hero bg-cover bg-center"></div>
+      <div className='relative flex-1 flex justify-center  items-center xl:min-h-screen  max-xl:py-40
+       bg-primary bg-hero bg-cover bg-center'>
 
         {/* Shoe Image */}
         <img
@@ -64,7 +61,7 @@ const Hero = () => {
         />
 
         {/* Shoe Thumbnails */}
-        <div className="flex sm:gap-6 gap-4 absolute -bottom-[-1%] sm:left-[8%] max-sm:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[-1%] sm:left-[4%] max-sm:px-6">
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard
