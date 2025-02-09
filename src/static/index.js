@@ -7,6 +7,12 @@ export const navLinks = [
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },
 ];
+export const navItems = [
+    { label: "Home", href: "#" },
+    { label: "About Us", href: "#" },
+    { label: "Products", href: "#" },
+    { label: "Contact Us", href: "#" },
+  ];
 
 export const shoes = [
     {
@@ -118,7 +124,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "+91740611299", link: "tel:+91740611299" },
         ],
     },
 ];

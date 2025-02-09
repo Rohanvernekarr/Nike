@@ -32,14 +32,18 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className='mt-11 flex flex-wrap gap-4'>
+        <div className='mt-11 flex flex-wrap gap-4 '>
+          <div className="transition-transform duration-300 hover:scale-105">
           <Button label='Shop now' iconURL={arrowRight} />
+          </div>
+          <div className="transition-transform duration-300 hover:scale-105">
           <Button
             label='Learn more'
             backgroundColor='bg-white'
             borderColor='border-slate-gray'
             textColor='text-slate-gray'
           />
+          </div>
         </div>
         </div>
       
